@@ -2,6 +2,9 @@ This guide is specifically on how to get from Linux to Windows.
 
 Note if you're concerned about this feel free to reach out to an SA come in during our office hours or reach out to Arjun and Cooper on the rbe discord server for non office hour help. 
 
+If you have questions reference the FAQ below.
+
+
 ## Step 0 
 Regardless of what computer you have, theres a couple things we need to do. 
 
@@ -130,3 +133,27 @@ Select The **Install Ubuntu** Option to being the install process
     Wait for the Install to finish. 
 
     Once its done restart the computer, unplug the usb drive and you should be greeted by a grub menu that will allow you to boot into either Ubuntu or Windows. (or just Ubuntu if you aren't dual booting)
+
+## FAQ
+
+Q: Can I use a VM?  <br />
+A: No. The communication protocal the arm uses requires it to be run on "bare metal" anything else will be too slow. 
+
+Q: Can I use the Ubuntu subsystem for Linux?  <br/>
+A: No for the same protocal reasons as above. 
+
+
+Q: I don't have enough space on my computer to install Ubuntu  <br />
+A: It's 50gb to install ubuntu, do your best to backup and remove old files, photos, etc.
+There are hundreds of services out there to do this for almost nothing. 
+
+Below are the services I use. <br />
+* [AWS S3 backup guide](https://aws.amazon.com/getting-started/hands-on/backup-files-to-amazon-s3/)
+* [Google Photos](https://photos.google.com/)
+* [Github](https://github.com/)
+
+However worse come to worst you *can* run it on an external hard drive but it'll be slow and it's a nightmare to setup
+
+Q: Can I use Ubuntu 20.04 <br/>
+A: Theoretically yes, however lab staff will all be running on 18.04, and 20.04 is untested. 
+
