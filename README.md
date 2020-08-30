@@ -24,20 +24,19 @@ If you want to decrypt your hard drive, all you need to do is turn off BitLocker
 
 1. Click **Start** , click **Control Panel**, click **System and Security** (if the control panel items are listed by category), and then click **BitLocker Drive Encryption**.
 
-```
-picture
-```
+![bl1](pics/bl-1.png)
+
+![bl2](pics/bl-2.png)
+
+![bl-3](pics/bl-3.png)
 
 2. In the **BitLocker Drive Encryption** control panel, click **Turn Off BitLocker**.
 
-```
-picture
-```
+If you dont see a **Turn Off BitLocker** then congrats BitLocker is already off.
+![Welcome](pics/bl-4.png)
+
 3. Click **Decrypt Drive** to start the decryption process. This process will take a while.
 
-```
-picture
-```
 
 ### Space on your hard drive. 
 You need atleast 30gb of free space on your hard drive, Idealy 50gb+, (personsally I split my dualboots down the middle half windows half linux). Backing up all your data means you should be able to get rid of some of the old stuff.  
@@ -51,7 +50,7 @@ Follow [this](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overv
 Download [this](https://releases.ubuntu.com/18.04.5/ubuntu-18.04.5-desktop-amd64.iso) .iso file to put on your flash drive.
 
 
-### Using the Bootable USB
+## Using the Bootable USB
 
 The first step to install Ubuntu is to run the Ubuntu live environment. To run the Ubuntu live environment, we have to reboot our PC and load the boot-up menu. 
 
@@ -61,9 +60,9 @@ This procedure varies per model of laptop and the best way to find out what the 
 
 When you are successful in choosing a device to boot off you should see a screen that looks like this. 
 
-```
-picture grub
-```
+![grub](pics/grub.png)
+
+Select The **Install Ubuntu** Option to being the install process
 
 
 ## Installing Linux on your hard drive
@@ -96,7 +95,7 @@ picture grub
 
     If you want to do a fresh clean install of Ubuntu choose either `Erase Disk and Install Ubuntu` or `Delete Windows and Install Ubuntu` (bestest)
 
-    If you would like to **Dual Boot** install of Ubuntu choose `Install Ubuntu Alongside.` you will then be brought to a menu to select the size of each partition (not bestest)
+    If you would like to **Dual Boot** install of Ubuntu choose `Install Ubuntu Alongside.` you will then be brought to a menu to select the size of each partition (not bestest2)
 
     *you do not need to encrypt the disk or use LVM, I just stole this photo off the internet.
 
