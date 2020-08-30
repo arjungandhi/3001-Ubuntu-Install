@@ -140,8 +140,7 @@ Q: Can I use a VM?  <br />
 A: No. The communication protocal the arm uses requires it to be run on "bare metal" anything else will be too slow. 
 
 Q: Can I use the Ubuntu subsystem for Linux?  <br/>
-A: No for the same protocal reasons as above. 
-
+A: No for the same protocal reasons as above. Also why. 
 
 Q: I don't have enough space on my computer to install Ubuntu  <br />
 A: It's 50gb to install ubuntu, do your best to backup and remove old files, photos, etc.
