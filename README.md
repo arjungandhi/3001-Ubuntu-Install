@@ -4,6 +4,8 @@ Note if you're concerned about this feel free to reach out to an SA come in duri
 
 If you have questions reference the FAQ below.
 
+## Requirements
+To complete this guide you will need one 4 GB flash drive and minimum 30GB of free space.
 
 ## Step 0 
 Regardless of what computer you have, theres a couple things we need to do. 
